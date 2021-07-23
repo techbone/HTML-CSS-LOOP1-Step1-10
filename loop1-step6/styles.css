@@ -1,0 +1,117 @@
+html,
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #4e515d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 73rem;
+  height: 42rem;
+  background-color: white;
+  border-radius: 0.8%;
+  display: flex;
+}
+
+.firstcon {
+  width: 60%;
+  height: 100%;
+}
+
+.secondcon {
+  width: 40%;
+  height: 100%;
+  background-color: #4e515d;
+  border-radius: 0 0.8% 0 0;
+  position: relative;
+}
+
+.secondcon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0.8% 0 0;
+}
+
+.member {
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.use {
+  margin-left: 4rem;
+  margin-top: -2rem;
+  color: #b1aeb3;
+}
+
+.rectanglescon {
+  height: 18rem;
+  width: 100%;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.rectangle {
+  width: 80%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10rem;
+  border: 0.7px solid lightgray;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+.rectangle:hover {
+  box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  background-color: white;
+  cursor: pointer;
+}
+
+.rectangle p:hover {
+  color: black;
+}
+
+.rectangle img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1rem;
+}
+
+.rectangle p {
+  font-size: 13px;
+  color: #8f8d8e;
+  font-weight: bolder;
+}
+
+.underscore {
+  color: lightgray;
+}
+
+.text {
+  margin-left: 3.5rem;
+  margin-top: 3rem;
+}
+
+.hover-text {
+  margin-left: 33rem;
+  margin-top: -2rem;
+  font-size: 11px;
+  font-weight: bolder;
+  color: #868387;
+}
+
+.hover-text:hover {
+  cursor: pointer;
+  color: black;
+}
